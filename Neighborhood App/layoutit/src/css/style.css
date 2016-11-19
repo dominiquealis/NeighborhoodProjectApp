@@ -1,0 +1,70 @@
+/*Green Palette*/
+/*Lightest to Darkest:
+E2E8CA
+D5DE95
+8EBA5F
+528F47
+1F5C45*/
+
+/*API Key: AIzaSyBI_R83zKtF6SUQJ2d_Q-7R7PzRDmQnKao
+
+
+*/
+
+body{
+	background-color: #dfe4e2;
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+.navbar {
+-webkit-box-shadow: 0px 9px 16px -2px rgba(117,117,117,0.74);
+-moz-box-shadow: 0px 9px 16px -2px rgba(117,117,117,0.74);
+box-shadow: 0px 9px 16px -2px rgba(117,117,117,0.74);
+  	background-color: #3fb384;
+  	border-style: none;
+  	color:white;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+
+.mainbody {
+	top: 50px;
+}
+
+.alert {
+		-webkit-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+-moz-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	background-color: white;
+	color: black;
+	border-style: hidden;
+	font-size: 1em;
+	border-radius: 5px;
+
+}
+
+.maps{
+		-webkit-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	-moz-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	max-height: 600px;
+}
+
+.notes{
+	background-color: white;
+	-webkit-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	-moz-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
+	right: 5px;
+	max-height: 600px;
+	height: 600px;
+	overflow-y: scroll;
+	overflow-x: hidden; 
+}
+
+address{
+	margin-top: 20px;
+}
