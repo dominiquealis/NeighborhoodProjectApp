@@ -51,7 +51,9 @@ box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
 	-moz-box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
 	box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
 	max-height: 600px;
+	border-radius: 10px;
 }
+
 
 .notes{
 	background-color: white;
@@ -62,7 +64,8 @@ box-shadow: -6px 9px 16px -2px rgba(117,117,117,0.74);
 	max-height: 600px;
 	height: 600px;
 	overflow-y: scroll;
-	overflow-x: hidden; 
+	overflow-x: hidden;
+	border-radius: 5px; 
 }
 
 address{
