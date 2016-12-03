@@ -11,10 +11,19 @@ D5DE95
 
 */
 
+
 body{
 	background-color: #dfe4e2;
 	font-family: 'Oxygen', sans-serif;
 
+}
+
+#form{
+	padding: 40px 40px;
+}
+
+.profile{
+	margin: 20px 0 40px 0;	
 }
 
 .navbar {

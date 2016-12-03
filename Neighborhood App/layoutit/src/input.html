@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Profile</title>
+
+	<meta name="Dominique" content="Neighborly">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
+</head>
+<body id="form">
+<h1 class="headerpad">Join your Neighborhood</h1>
+<form class="profile">
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">First Name</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" value="Enter your first name" id="fname">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">Last Name</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" value="Enter your last name" id="lname">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-text-input" class="col-xs-2 col-form-label">Street Address</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="text" value="Enter your street address" id="streetaddress">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-email-input" class="col-xs-2 col-form-label">Email</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="email" value="bootstrap@example.com" id="email">
+      <input type="checkbox" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Check this button to join our mailing list</span>
+</label>
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-tel-input" class="col-xs-2 col-form-label">Telephone</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="tel" value="1-(555)-555-5555" id="telno">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-password-input" class="col-xs-2 col-form-label">Password</label>
+  <div class="col-xs-10">
+    <input class="form-control" type="password" value="hunter2" id="pw">
+  </div>
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+</body>
+
+<!-- FIREBASE CODE -->
+<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBlMyTOW7JVe-OFAQtUXRnREKsBiI8R0WY",
+    authDomain: "neighborhoodapp-1479323690062.firebaseapp.com",
+    databaseURL: "https://neighborhoodapp-1479323690062.firebaseio.com",
+    storageBucket: "neighborhoodapp-1479323690062.appspot.com",
+    messagingSenderId: "678773963357"
+  };
+  firebase.initializeApp(config);
+</script>
+
+</html>

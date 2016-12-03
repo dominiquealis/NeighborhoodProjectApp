@@ -1,0 +1,82 @@
+{
+  "homes" : {  
+    "712" : {
+      "persons" : {
+        "person1" : {
+          "firstname" : "Dominique",
+          "lastname" : "Ryan"
+        },
+        "person2" : {
+          "firstname" : "Andrew",
+          "lastname" : "Nichols"
+        }
+      },
+      "pets" : {
+        "cats" : {
+          "cat1" : "Binx",
+          "cat2" : "Miami",
+          "cat3" : "Zelda"
+        }
+      },
+      "phones" : {
+        "phone1" : "222-222-2222",
+        "phone2" : "333-333-3333"
+      },
+      "streetaddress" : {
+        "address" : "712 Ritchie Ave"
+      }
+    },
+  "714"  : {
+      "persons"   : {
+        "person1" : {
+          "firstname" : "Marla",
+          "lastname"  : "Nix"
+        },
+        "person2" : {
+          "firstname" : "Jim",
+          "lastname" : "Nix"
+        }
+      },
+      "pets" : {
+        "dogs" : {
+          "dog1" : "Breta"
+        },
+        "cats" :{
+            "cat1" : "Orange Cat",
+            "cat2" : "Black Cat"
+      }
+      },
+      "phones" : {
+        "phone1" : "222-222-2222",
+        "phone2" : "333-333-3333"
+      },
+      "streetaddress" : {
+        "address" : "714 Ritchie Ave"
+      }
+    },
+    "710"  : {
+      "persons"   : {
+        "person1" : {
+          "firstname" : "Art",
+          "lastname"  : "Cohen"
+        },
+        "person2" : {
+          "firstname" : "Erin",
+          "lastname" : "Cohen"
+        }
+      },
+      "pets" : {
+        "dogs" : {
+          "dog1" : "Fido"
+        }
+      },
+      "phones" : {
+        "phone1" : "222-222-2222",
+        "phone2" : "333-333-3333"
+      },
+      "streetaddress" : {
+        "address" : "710 Ritchie Ave"
+      }
+    }
+  }
+}
